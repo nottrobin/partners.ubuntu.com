@@ -3,7 +3,7 @@ import json
 from django.test import TestCase
 from django.test.client import Client
 
-from cms.models import Partner
+from .models import Partner
 
 c = Client()
 

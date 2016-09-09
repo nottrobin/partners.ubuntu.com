@@ -1,5 +1,5 @@
 """
-WSGI config for partnerwebsite project.
+WSGI config for partners project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -12,7 +12,7 @@ import sys
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(BASE_DIR)
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "partnerwebsite.prod_settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "webapp.prod_settings")
 
 from django.core.wsgi import get_wsgi_application
 from dj_static import Cling

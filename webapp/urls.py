@@ -9,7 +9,7 @@ from django.views.generic.base import RedirectView
 
 from django_yaml_redirects import load_redirects
 
-from cms.views import (
+from .views import (
     partner_programmes, partner_view, PartnerView,
     find_a_partner, partners_json_view, customers_json_view
 )

@@ -1,5 +1,5 @@
 """
-Django settings for partnerwebsite project.
+Django settings for partners project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
-    'cms',
+    'webapp',
     'markdown_deux'
 ]
 
@@ -51,9 +51,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'partnerwebsite.urls'
+ROOT_URLCONF = 'webapp.urls'
 
-WSGI_APPLICATION = 'partnerwebsite.wsgi.application'
+WSGI_APPLICATION = 'webapp.wsgi.application'
 
 
 # Database

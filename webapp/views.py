@@ -11,7 +11,7 @@ from django.db.models import Q
 from django.http import HttpResponse
 
 # Local
-from cms.models import (
+from .models import (
     Partner, Technology, Programme, ServiceOffered
 )
 

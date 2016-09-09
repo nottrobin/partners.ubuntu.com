@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from cms.models import (
+from .models import (
     Partner, Technology, PartnerType, Programme, ServiceOffered,
     Quote, Link, InsightsTag, Tag, Text
 )
